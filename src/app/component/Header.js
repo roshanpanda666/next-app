@@ -15,7 +15,7 @@ const Header = () => {
         </Link>
       </div>
       <div onClick={openfun} className="lg:hidden block">
-        <img src="menu-white.png" alt="" className="scale-[60%]"/>
+        =
       </div>
       <motion.div
         className={`flex justify-center items-center absolute h-[50%] bg-[rgb(9,158,158)]  w-[80%] lg:hidden
