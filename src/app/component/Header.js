@@ -9,9 +9,13 @@ const Header = () => {
   }
   return (
     <div className="flex gap-x-[60vw] justify-center lg:mt-10 mt-5 mb-5 h-7">
-      <div>logo</div>
+      <div className="-mt-[3%] scale-[100%] lg:scale-[40%]">
+        <Link href='/'>
+        <img src="laptop-.gif" alt="img"/>
+        </Link>
+      </div>
       <div onClick={openfun} className="lg:hidden block">
-        =
+        <img src="menu-white.png" alt="" className="scale-[60%]"/>
       </div>
       <motion.div
         className={`flex justify-center items-center absolute h-[50%] bg-[rgb(9,158,158)]  w-[80%] lg:hidden
