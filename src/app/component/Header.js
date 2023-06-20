@@ -9,9 +9,9 @@ const Header = () => {
   }
   return (
     <div className="flex gap-x-[60vw] justify-center lg:mt-10 mt-5 mb-5 h-7">
-      <div className="-mt-[3%] scale-[100%] lg:scale-[40%]">
+      <div>
         <Link href='/'>
-        <img src="laptop-.gif" alt="img"/>
+        logo
         </Link>
       </div>
       <div onClick={openfun} className="lg:hidden block">
