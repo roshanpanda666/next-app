@@ -7,7 +7,7 @@ const Moviecard = (curElem) => {
         <div className="flex justify-center items-center">
 
         <Link href={`/movie/${id}`}>
-            <div className="border-2 border-[rgb(9,158,158)] lg:h-72 h-72 w-60 lg:w-60 m-5 flex flex-col justify-center items-center hover:shadow-[0px_0px_40px_6px_rgb(9,158,158)] hover:h-80 hover:w-64 duration-500">
+            <div className="border-2 border-[rgb(9,158,158)] lg:h-80 h-80 w-80 lg:w-80 m-5 flex flex-col justify-center items-center hover:shadow-[0px_0px_40px_6px_rgb(9,158,158)] hover:h-[22rem] hover:w-[22rem] duration-500 p-4 rounded-md">
                 <div>
                     <img src={curElem.jawSummary.backgroundImage.url} alt="{title}" />
                 </div>
