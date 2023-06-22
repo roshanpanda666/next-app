@@ -1,7 +1,7 @@
 import React from 'react'
 import Moviecard from '../component/Moviecard';
 const Movie = async () => {
-  const url = 'https://netflix54.p.rapidapi.com/search/?query=stranger&offset=0&limit_titles=50&limit_suggestions=20&lang=en';
+  const url = 'https://netflix54.p.rapidapi.com/search/?query=stranger&offset=0&limit_titles=500&limit_suggestions=500&lang=en';
   const options = {
     method: 'GET',
     headers: {
