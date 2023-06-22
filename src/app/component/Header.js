@@ -8,7 +8,7 @@ const Header = () => {
     close(!open);
   }
   return (
-    <div className="flex gap-x-[60vw] justify-center lg:mt-10 mt-5 mb-5 h-7 text-[1.6rem]">
+    <div className="flex gap-x-[60vw] justify-center lg:mt-10 mt-5 mb-5 h-7 text-[1.6rem mb-10">
       <div>
         <Link href='/'>
         <img src="movie-icon.png" alt="next" className="lg:h-[10vh] h-[5vh] w-[12vw] lg:w-[5vw]"/>
