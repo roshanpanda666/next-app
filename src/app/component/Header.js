@@ -8,7 +8,7 @@ const Header = () => {
     close(!open);
   }
   return (
-    <div className="flex gap-x-[60vw] justify-center lg:mt-10 mt-5 lg:mb-5 mb-10 h-7 text-[1.6rem mb-10">
+    <div className="flex gap-x-[60vw] justify-center lg:mt-10 mt-5 lg:mb-5 mb-10 h-7 text-[1.6rem]">
       <div>
         <Link href='/'>
         <motion.img src="movie-icon.png" alt="next" className="lg:h-[10vh] h-[5vh] w-[12vw] lg:w-[5vw]"
