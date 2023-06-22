@@ -16,8 +16,8 @@ console.log(data)
   return (
     
     <div>
-      <div className='text-center'>
-      movie page
+      <div className='text-center flex justify-center items-center'>
+       <div className='text-3xl '>Movies/</div><span className='text-3xl text-[rgb(9,158,158)]'>Shows</span>
       </div>
       <div className='flex flex-wrap justify-center items-center'>
       
