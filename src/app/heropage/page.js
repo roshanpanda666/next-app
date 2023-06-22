@@ -15,7 +15,7 @@ const Hero = (props) => {
         </div>
         <div className='flex justify-center lg:justify-start w-[60%] mt-10'>
           <Link href="/movie" >
-          <button className='bg-[rgb(9,158,158)] text-white rounded-lg w-[6rem] h-[2rem] font-bold hover:shadow-[0px_0px_40px_6px_rgb(9,158,158)]'>EXPLORE</button>
+          <button className='border-[rgb(9,158,158)] border-2 bg-black text-white rounded-lg w-[6rem] h-[2rem] font-bold hover:shadow-[0px_0px_40px_6px_rgb(9,158,158)]'>EXPLORE</button>
           </Link>
         </div>
       </div>
