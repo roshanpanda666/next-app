@@ -62,18 +62,18 @@ const Header = () => {
       </motion.div>
       <div className="lg:block hidden">
         <div className=" flex gap-10">
-          <div className="hover:border-b-2 border-[rgb(9,158,158)]">
+          <div className="hover:border-b-2 border-[rgb(9,158,158)] active:text-[rgb(9,158,158)]">
             <Link href="/">Home</Link>
           </div>
 
-          <div className="hover:border-b-2 border-[rgb(9,158,158)]">
+          <div className="hover:border-b-2 border-[rgb(9,158,158)] active:text-[rgb(9,158,158)]">
             <Link href="/about">About</Link>
           </div>
 
-          <div className="hover:border-b-2 border-[rgb(9,158,158)]">
+          <div className="hover:border-b-2 border-[rgb(9,158,158)] active:text-[rgb(9,158,158)]">
             <Link href="/contact">contact</Link>
           </div>
-          <div className="hover:border-b-2 border-[rgb(9,158,158)]">
+          <div className="hover:border-b-2 border-[rgb(9,158,158)] active:text-[rgb(9,158,158)]">
             <Link href="/movie">movie</Link>
           </div>
         </div>
