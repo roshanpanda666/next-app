@@ -55,7 +55,7 @@ const Header = () => {
           <div className="hover:border-b-2 border-[rgb(9,158,158)]"onClick={openfun}>
             <Link href="/contact">contact</Link>
           </div>
-          <div className="hover:border-b-2 border-[rgb(9,158,158)]"onClick={openfun}>
+          <div className="hover:border-b-2 border-[rgb(9,158,158)] mb-16"onClick={openfun}>
             <Link href="/movie">movie</Link>
           </div>
         </div>
