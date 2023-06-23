@@ -21,7 +21,7 @@ const Moviecard = (curElem) => {
             
                 
             </div>
-            </Link>
+        </Link>
 
 
         </div>
